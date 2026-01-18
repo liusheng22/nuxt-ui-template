@@ -1,0 +1,12 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "eslint.useFlatConfig": true,
+  "cSpell.words": [
+    "Nuxt",
+    "sonner",
+    "Supabase",
+  ],
+}
