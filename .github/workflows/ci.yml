@@ -20,8 +20,8 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9.15.1
+        # Let pnpm/action-setup read the exact version from package.json#packageManager
+        # to avoid "Multiple versions of pnpm specified" errors.
 
       - name: Setup Node (pnpm cache)
         uses: actions/setup-node@v4
