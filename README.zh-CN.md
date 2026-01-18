@@ -4,6 +4,11 @@
 
 基于 **Nuxt 4 + Nuxt UI v4（Tailwind CSS v4）** 的模板项目。
 
+## 环境要求
+
+- Node.js 20+（推荐）
+- pnpm（建议通过 Corepack 启用）：`corepack enable`
+
 ## 包含内容
 
 - 营销落地页：`/`
@@ -24,6 +29,31 @@
 
 ```bash
 pnpm install
+```
+
+## 快速开始
+
+### 方案 A：GitHub 模板仓库（推荐）
+
+直接使用 GitHub 的 “Use this template（使用此模板）”：
+
+https://github.com/liusheng22/nuxt-ui-template
+
+### 方案 B：一条命令拉取（giget）
+
+```bash
+npx giget liusheng22/nuxt-ui-template my-app
+# 或：pnpm dlx giget liusheng22/nuxt-ui-template my-app
+cd my-app
+pnpm install
+cp .env.example .env
+pnpm dev
+```
+
+### 方案 C：一条命令拉取（degit）
+
+```bash
+npx degit liusheng22/nuxt-ui-template my-app
 ```
 
 ## 环境变量

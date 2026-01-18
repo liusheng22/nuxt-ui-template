@@ -4,6 +4,11 @@ English | [简体中文](./README.zh-CN.md)
 
 Nuxt 4 template powered by **Nuxt UI v4** (Tailwind CSS v4).
 
+## Requirements
+
+- Node.js 20+ (recommended)
+- pnpm (via Corepack): `corepack enable`
+
 ## What's Included
 
 - Landing page: `/`
@@ -19,6 +24,31 @@ Nuxt 4 template powered by **Nuxt UI v4** (Tailwind CSS v4).
 - SEO:
   - Sitemap: `/sitemap.xml` (generated)
   - Robots: `/robots.txt` (generated)
+
+## Quick Start
+
+### Option A: GitHub Template (recommended)
+
+Use GitHub's “Use this template” button:
+
+https://github.com/liusheng22/nuxt-ui-template
+
+### Option B: One-command download (giget)
+
+```bash
+npx giget liusheng22/nuxt-ui-template my-app
+# or: pnpm dlx giget liusheng22/nuxt-ui-template my-app
+cd my-app
+pnpm install
+cp .env.example .env
+pnpm dev
+```
+
+### Option C: One-command download (degit)
+
+```bash
+npx degit liusheng22/nuxt-ui-template my-app
+```
 
 ## Setup
 

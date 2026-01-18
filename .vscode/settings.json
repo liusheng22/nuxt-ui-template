@@ -5,8 +5,10 @@
   },
   "eslint.useFlatConfig": true,
   "cSpell.words": [
+    "giget",
+    "liusheng",
     "Nuxt",
     "sonner",
-    "Supabase",
+    "Supabase"
   ],
 }
