@@ -133,6 +133,10 @@ server/
   - See `docs/DEPLOY.md`
   - Nuxt docs: https://nuxt.com/docs/getting-started/deployment
 
+## AI Tooling (optional)
+
+- Cursor / Codex skills guide: `docs/AI_SKILLS.md`
+
 ## Formatting
 
 This template uses ESLint (Nuxt ESLint + stylistic rules) as the single source of formatting.

@@ -120,6 +120,10 @@ server/
   - 见 `docs/DEPLOY.md`
   - Nuxt 部署文档：https://nuxt.com/docs/getting-started/deployment
 
+## AI 工具支持（可选）
+
+- Cursor / Codex skills 指南：`docs/AI_SKILLS.zh-CN.md`
+
 ## 代码格式化策略
 
 本模板以 ESLint（Nuxt ESLint + stylistic rules）作为唯一格式化来源，不默认引入 Prettier。
